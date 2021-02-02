@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashService.Job", "DashService.Job\DashService.Job.csproj", "{2F2BDABC-CB01-4D8B-80BD-6F4B1EC992BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashService.Job.Framework", "DashService.Job.Framework\DashService.Job.Framework.csproj", "{A6FDE4C7-82A7-4C39-B5A9-D8835075C4BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2F2BDABC-CB01-4D8B-80BD-6F4B1EC992BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F2BDABC-CB01-4D8B-80BD-6F4B1EC992BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F2BDABC-CB01-4D8B-80BD-6F4B1EC992BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FDE4C7-82A7-4C39-B5A9-D8835075C4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FDE4C7-82A7-4C39-B5A9-D8835075C4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FDE4C7-82A7-4C39-B5A9-D8835075C4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FDE4C7-82A7-4C39-B5A9-D8835075C4BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
