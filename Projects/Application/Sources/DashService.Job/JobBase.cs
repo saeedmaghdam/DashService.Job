@@ -1,7 +1,5 @@
 ﻿using DashService.Logger;
 using System;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace DashService.Job
 {
@@ -20,16 +18,6 @@ namespace DashService.Job
         public JobBase(ILogger logger)
         {
             _logger = logger;
-        }
-
-        public virtual Task StartAsync(CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
-        }
-
-        public virtual Task StopAsync(CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
         }
     }
 }
