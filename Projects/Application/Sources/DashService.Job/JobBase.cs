@@ -1,12 +1,11 @@
-﻿using DashService.Job.Framework;
-using DashService.Logger;
+﻿using DashService.Logger;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace DashService.Job
 {
-    public abstract class JobBase : IJob
+    public abstract class JobBase
     {
         private readonly ILogger _logger;
 

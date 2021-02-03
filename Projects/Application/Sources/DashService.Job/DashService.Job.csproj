@@ -9,10 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DashService.Job.Framework\DashService.Job.Framework.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="DashService.Logger">
       <HintPath>..\..\Libs\DashService.Logger.dll</HintPath>
     </Reference>
