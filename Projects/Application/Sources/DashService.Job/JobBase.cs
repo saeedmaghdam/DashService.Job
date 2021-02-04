@@ -6,8 +6,11 @@ namespace DashService.Job
     public abstract class JobBase
     {
         private readonly ILogger _logger;
+        private readonly Guid _uniqueId;
 
         public ILogger Logger => _logger;
+
+        public Guid UniqueId => _uniqueId;
 
         public virtual string Name => throw new NotImplementedException();
 
@@ -18,6 +21,7 @@ namespace DashService.Job
         public JobBase(ILogger logger)
         {
             _logger = logger;
+            _uniqueId = new Guid();
         }
     }
 }
